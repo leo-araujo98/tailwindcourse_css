@@ -1,9 +1,12 @@
 <script setup>
 import HelloWorld from './components/HelloWorld.vue'
+import FlexBox from './components/FlexBox.vue'
 </script>
 
 <template>
-<HelloWorld/>
+<!-- <HelloWorld/> -->
+
+<FlexBox/>
 </template>
 
 <style scoped>
