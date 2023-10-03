@@ -1,12 +1,17 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
-import FlexBox from './components/FlexBox.vue'
+import basico from './components/basico.vue'
+import flexBox from './components/flexBox.vue'
+import grid from './components/grid.vue'
+
+
 </script>
 
 <template>
-<!-- <HelloWorld/> -->
 
-<FlexBox/>
+  <!-- <basico/> -->
+  <!-- <flexBox/> -->
+  <grid/>
+
 </template>
 
 <style scoped>
