@@ -11,9 +11,30 @@ module.exports = {
      
     },
     extend: {
-      colors: {
-        
+      spacing:{
+        '14': '3.5rem',
+        '125px': '125px'
       },
+      colors: {
+        'hoverspt': '#18D760',
+        'purble-main': '#2D46B9',
+        'green-main': '#1ED760'
+      },
+      backgroundsImage: theme => ({
+        'spotify-theme': "url('/imgs/spotify/bursts.svg')",
+        'spotify-theme-mobile': "url('/imgs/spotify/bursts-mobile.svg')",
+      }),
+    backgroundSize: {
+        '175%': '175%',
+        '195%': '195%'
+    },
+    backgroundPosition: {
+      'banner': '46% 4%',
+      'banner-mobile': 'top 25% center'
+    },
+    fontSize: {
+      '9xl': '9rem'
+    },
     },
   },
   plugins: [require("@tailwindcss/forms")],

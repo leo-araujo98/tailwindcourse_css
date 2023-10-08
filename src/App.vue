@@ -2,6 +2,7 @@
 import basico from './components/basico.vue'
 import flexBox from './components/flexBox.vue'
 import grid from './components/grid.vue'
+import spotify from './components/projetos_curso/spotify.vue'
 
 
 </script>
@@ -10,7 +11,9 @@ import grid from './components/grid.vue'
 
   <!-- <basico/> -->
   <!-- <flexBox/> -->
-  <grid/>
+  <!--grid/-->
+  
+  <spotify/>
 
 </template>
 
