@@ -3,7 +3,7 @@
     <!--NAVBAR/-->
     <header>
         <div>
-            <div class="">
+            <div class="bg-gray-100">
 
                 <a href="#">
                     <img src="../../assets/imgs/spotify/spotify-logo.png" alt="spotif">
