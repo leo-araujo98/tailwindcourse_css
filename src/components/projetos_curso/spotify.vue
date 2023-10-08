@@ -53,7 +53,7 @@
 
 <div class="">
     
-      <div class="bg-purple-main bg-footer-texture flex flex-col justify-center text-center bg-195% md:bg-175% text-green-main py-40 px-4"> 
+      <div class="flex flex-col justify-center text-center bg-spotify-theme-mobile md:bg-spotify-theme bg-banner-mobile md:bg-banner bg-195% md:bg-175% bg-purple-main text-green-main py-40 px-4"> 
             <h1>
                 Escutar muda tudo
             </h1>
