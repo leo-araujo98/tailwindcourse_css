@@ -148,4 +148,11 @@
         <div class="bg-purple-700">4</div>
     </div>
 
+    <div class="grid grid-cols-2 m-4 gap-6">
+        <div class="bg-purple-400">1</div>
+        <div class="bg-purple-500">2</div>
+        <div class="bg-purple-600">3</div>
+        <div class="bg-purple-700">4</div>
+    </div>
+
 </template>
