@@ -50,4 +50,20 @@
         <h1 class="text-4xl mb-6">-Exercício 14-</h1>
         <p class="text-5xl tracking-widest italic text-blue-800">Resolução</p>
     </div>
+
+    <div class="my-4 p-12 flex flex-col justify-center bg-yellow-200 text-center font-bold text-3xl">
+        <h1 class="text-4xl mb-6 ">-Listas-</h1>
+        <ul class="list-disc m-5">
+            <li class="">Item 1</li>
+            <li class="">Item 2</li>
+            <li class="">Item 3</li>
+            <li class="">Item 4</li>
+        </ul>
+    </div>
+
+    <div class="my-4 p-12 flex flex-col justify-center bg-yellow-200 text-center font-bold text-3xl">
+        <h1 class="text-4xl mb-6">-Exercício 15-</h1>
+        <p class="text-center mx-auto border-4 border-red-900 bg-red-400 text-red-900 font-bold rounded-lg p-8 flex">Error</p>
+    </div>
+
 </template>
