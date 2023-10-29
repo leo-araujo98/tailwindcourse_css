@@ -6,6 +6,7 @@ import flexBoxVue from './components/flexBox.vue'
 import espaçamentos from './components/espaçamentos.vue'
 import tipografia from './components/tipografia.vue'
 import background from './components/background.vue'
+import animation from './components/animation.vue'
 
 </script>
 
@@ -17,8 +18,12 @@ import background from './components/background.vue'
   <!--espaçamentos/-->
   <!--spotify/-->
   <!--tipografia/-->
-  <background/>
+  <!--background/-->
+  
 
+   <div class="justify-center flex bg-transparent">
+    <img class="bg-transparent" src="./assets/Animation SMZINHO_2.gif" />
+  </div>
 
 </template>
 
