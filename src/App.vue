@@ -7,11 +7,20 @@ import espaçamentos from './components/espaçamentos.vue'
 import tipografia from './components/tipografia.vue'
 import background from './components/background.vue'
 import animation from './components/animation.vue'
+import facebook from './components/projetos_curso/facebook.vue'
+
+import { ref } from 'vue'
+
+
+const completed = ref(0);
+
+const updateCompleted = (value) => {
+  completed.value = value
+}
 
 </script>
 
 <template>
-
   <!-- <basico/> -->
   <!--Flexbox/-->
   <!--grid/-->
@@ -19,14 +28,11 @@ import animation from './components/animation.vue'
   <!--spotify/-->
   <!--tipografia/-->
   <!--background/-->
-  
 
-   <div class="justify-center flex bg-transparent">
-    <img class="bg-transparent" src="./assets/Animation SMZINHO_2.gif" />
-  </div>
+  <!--animation @animation-completed="updateCompleted" class="w-[40%] justify-center flex m-auto"/-->
+<facebook/>
+
 
 </template>
 
-<style scoped>
-
-</style>
+<style scoped></style>

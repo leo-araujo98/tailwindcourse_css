@@ -1,30 +1,20 @@
-<script setup lang="ts">
-import { onMounted, ref } from "vue";
-import { LottieAnimation } from "lottie-web-vue";
-import animate_smzinho from "../assets/animate_smzinho.json";
-import Lego from "../assets/Lottie Lego.json";
-
-let anim = ref();
-
-onMounted(() => {
-  setTimeout(() => {
-    console.log(anim.value.goToAndPlay(150, true));
-    anim.value;
-  }, 500);
-});
-</script>
 <template>
-  <!-- <LottieAnimation
-    ref="anim"
-    :animation-data=""
-    :loop="true"
-    :auto-play="true"
-    :speed="1"
-    @loopComplete="loopComplete"
-    @complete="complete"
-    @enterFrame="enterFrame"
-    @segmentStart="segmentStart"
-    @stopped="stopped"/> -->
+  <Vue3Lottie :animationData="AstronautJSON" :speed="1" :height="400" :width="600" @on-loop-complete="completed++" />
 
- 
+  <div class="text-center bg-blue-500 py-3 w-[15%] mx-auto rounded-xl border-8 border-purple-700">
+    LOOP: {{ completed }}
+  </div>
+  <button class="bg-green-400 justify-center flex mx-auto px-8 py-2 rounded-lg text-xl my-6" >Aumentar Velocidade</button>
+  <button class="bg-green-400 justify-center flex mx-auto px-8 py-2 rounded-lg text-xl mb-6" >Diminuir Velocidade</button>
+  <button class="bg-green-400 justify-center flex mx-auto px-8 py-2 rounded-lg text-xl" >Play</button>
+  
 </template>
+
+<script setup lang="ts">
+import { ref, onMounted } from 'vue' 
+import { Vue3Lottie } from 'vue3-lottie'
+import AstronautJSON from '../assets/Lottie Lego.json'
+
+const completed = ref(0)
+
+</script>
