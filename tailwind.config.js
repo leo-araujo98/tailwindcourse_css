@@ -12,13 +12,29 @@ module.exports = {
     },
     extend: {
       spacing:{
+        '7':'1.75rem',
         '14': '3.5rem',
-        '125px': '125px'
+        '75px': '75x',
+        '125px': '125px',
+
       },
       colors: {
         'hoverspt': '#18D760',
         'purple-main': '#2D46B9',
-        'green-main': '#1ED760'
+        'green-main': '#1ED760',
+
+        'darkblue-500': '#485769',
+        'darkblue-600': '#37475A',
+        'darkblue-700': '#232f3E',
+        'darkblue-800': '#191E26',
+        'darkblue-900': '#131A22',
+
+        'gold-100': '#FEBD69',
+        'gold-200': '#FAA63A',
+
+        'orange-650': '#E47911',
+        'yellow-350': '#F0C14B',
+
       },
       backgroundImage: {
         'spotify-theme': "url('img/bursts.svg')",
