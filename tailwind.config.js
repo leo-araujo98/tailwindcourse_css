@@ -16,7 +16,12 @@ module.exports = {
         '14': '3.5rem',
         '75px': '75x',
         '125px': '125px',
-
+        
+        '30': '7.5rem',
+        '290px': '290px',
+        '396px': '396px',
+        '500px': '500px',
+        '980px': '980px',
       },
       colors: {
         'hoverspt': '#18D760',
@@ -49,7 +54,8 @@ module.exports = {
       'banner-mobile': 'top 25% center'
     },
     fontSize: {
-      '9xl': '9rem'
+      '9xl': '9rem',
+      'subtitle': '1.7rem',
     },
     fontFamily:{
       'arial': 'Arial'
