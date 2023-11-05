@@ -12,9 +12,9 @@
 
 <script setup lang="ts">
 import { ref, onMounted } from 'vue' 
-import { Vue3Lottie } from 'vue3-lottie'
+import { Vue3Lottie } from 'vue3-lottie' 
 import AstronautJSON from '../assets/animate_smzinho.json'
 
-const completed = ref(0)
+const completed = ref(1)
 
 </script>
