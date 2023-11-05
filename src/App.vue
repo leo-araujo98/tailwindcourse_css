@@ -32,10 +32,10 @@ const updateCompleted = (value) => {
   <!--background/-->
   <!--bordas /-->
   <!--facebook /-->
-  <!--amazon/-->
+  <amazon/>
 
 
-  <animation @animation-completed="updateCompleted" class="w-[40%] justify-center flex m-auto"/>
+  <!--animation @animation-completed="updateCompleted" class="w-[40%] justify-center flex m-auto"/-->
 </template>
 
 <style scoped></style>

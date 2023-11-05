@@ -11,6 +11,9 @@ dependencies:
   vue:
     specifier: ^3.3.4
     version: 3.3.4
+  vue-simple-password-meter:
+    specifier: ^1.3.4
+    version: 1.3.4
   vue3-lottie:
     specifier: ^3.2.0
     version: 3.2.0(vue@3.3.4)
@@ -978,6 +981,10 @@ packages:
     optionalDependencies:
       fsevents: 2.3.3
     dev: true
+
+  /vue-simple-password-meter@1.3.4:
+    resolution: {integrity: sha512-tsulwVHtiYXP8OwUqqSt/hKmsJsUqsKBCdEL5+Wp0UCr9fPUwKq3dRorvPzBLQZFUAXAChxwZWbLKiyC+pSgpw==}
+    dev: false
 
   /vue3-lottie@3.2.0(vue@3.3.4):
     resolution: {integrity: sha512-PtNXbv7iD4XGmK8CXd71aLWmILIR6P6VzLMDw6ZzmDAeuJZuJ0MdOVnn50LOARgq+cOFJsn/2z+7tZh0F9T9qw==}
