@@ -10,6 +10,7 @@ import animation from './components/animation.vue'
 import facebook from './components/projetos_curso/facebook.vue'
 import bordas from './components/bordas.vue'
 import amazon from './components/projetos_curso/amazon.vue'
+import tailwindv2 from './components/tailwind_v2.vue'
 
 import { ref } from 'vue'
 
@@ -32,7 +33,10 @@ const updateCompleted = (value) => {
   <!--background/-->
   <!--bordas /-->
   <!--facebook /-->
-  <amazon/>
+
+  <!--amazon/-->
+
+ <tailwindv2/>
 
 
   <!--animation @animation-completed="updateCompleted" class="w-[40%] justify-center flex m-auto"/-->

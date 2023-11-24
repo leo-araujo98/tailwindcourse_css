@@ -1,6 +1,10 @@
 /** @type {import('tailwindcss').Config} */
+
+const colors = require('tailwindcss/colors');
+
 module.exports = {
   content: ["./index.html", "./src/**/*.{vue,js,ts,jsx,tsx}"],
+  darkMode: 'media',
   theme: {
     screens: {
       'sm': '640px',
@@ -32,7 +36,7 @@ module.exports = {
         'darkblue-600': '#37475A',
         'darkblue-700': '#232f3E',
         'darkblue-800': '#191E26',
-        'darkblue-900': '#131A22',
+        'darkblue-950': '#131A22',
 
         'gold-100': '#FEBD69',
         'gold-200': '#FAA63A',
@@ -40,6 +44,7 @@ module.exports = {
         'orange-650': '#E47911',
         'yellow-350': '#F0C14B',
 
+        amber: colors.amber,
       },
       backgroundImage: {
         'spotify-theme': "url('img/bursts.svg')",
